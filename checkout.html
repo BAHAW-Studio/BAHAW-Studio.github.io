@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout &mdash; BAHAW Studio</title>
+    <meta name="description" content="Complete your BAHAW Studio order.">
+    <meta name="theme-color" content="#8B7355">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://web3forms.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.web3forms.com;">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <img src="BAHAW-Studio-PP.png" alt="BAHAW Studio">
+                <span class="nav-logo-text">BAHAW</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="cart.html" class="nav-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" /></svg>
+                        <span class="cart-badge"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CHECKOUT -->
+    <section class="checkout-page">
+        <div class="container" id="checkoutContent">
+            <h1 class="page-title" style="margin-bottom: 32px;">Checkout</h1>
+            <div class="checkout-layout">
+                <!-- SHIPPING FORM -->
+                <div class="checkout-form">
+                    <h2>Shipping Information</h2>
+                    <form id="checkoutForm" novalidate>
+                        <input type="hidden" name="access_key" value="09df7276-a4b9-440c-9342-b4c7971c1dce">
+                        <input type="hidden" name="subject" value="New BAHAW Studio Order">
+                        <input type="hidden" name="from_name" value="BAHAW Studio Website">
+                        <input type="hidden" name="order_ref" id="orderRefField" value="">
+                        <input type="hidden" name="order_items" id="orderItemsField" value="">
+                        <input type="hidden" name="order_total" id="orderTotalField" value="">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="first_name" required>
+                                <div class="form-error">Please enter your first name</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="last_name" required>
+                                <div class="form-error">Please enter your last name</div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="form-error">Please enter a valid email</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <div class="form-error">Please enter your phone number</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Street Address *</label>
+                            <input type="text" id="address" name="address" required>
+                            <div class="form-error">Please enter your address</div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City *</label>
+                                <input type="text" id="city" name="city" required>
+                                <div class="form-error">Please enter your city</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="province">Province *</label>
+                                <input type="text" id="province" name="province" required>
+                                <div class="form-error">Please enter your province</div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="zip">ZIP Code *</label>
+                                <input type="text" id="zip" name="zip" required>
+                                <div class="form-error">Please enter your ZIP code</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <input type="text" id="country" name="country" value="Philippines" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Order Notes (optional)</label>
+                            <textarea id="notes" name="notes" rows="3" placeholder="Any special instructions..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full" id="submitBtn">Place Order</button>
+                    </form>
+                </div>
+
+                <!-- ORDER SUMMARY SIDEBAR -->
+                <div class="order-sidebar" id="orderSidebar">
+                    <!-- Loaded by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <span>&copy; 2026 BAHAW Studio. All rights reserved.</span>
+                <a href="terms.html">Terms &amp; Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>

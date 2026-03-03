@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product &mdash; BAHAW Studio</title>
+    <meta name="description" content="BAHAW Studio product details. Cebuano-themed embroidered hats, caps, beanies, and printed t-shirts.">
+    <meta name="theme-color" content="#8B7355">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://web3forms.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.web3forms.com;">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <img src="BAHAW-Studio-PP.png" alt="BAHAW Studio">
+                <span class="nav-logo-text">BAHAW</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="cart.html" class="nav-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" /></svg>
+                        <span class="cart-badge"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PRODUCT DETAIL -->
+    <section class="product-detail">
+        <div class="container" id="productDetail">
+            <!-- Loaded by JS -->
+        </div>
+    </section>
+
+    <!-- RELATED PRODUCTS -->
+    <section class="related-section" id="relatedProducts">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">You May Also Like</span>
+                <h2 class="section-title">Related Products</h2>
+            </div>
+            <div class="products-grid"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">BAHAW Studio</div>
+                    <p>Cebuano-themed apparel that celebrates Bisaya culture.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <a href="shop.html?category=caps">Caps</a>
+                    <a href="shop.html?category=beanies">Beanies</a>
+                    <a href="shop.html?category=tshirts">T-Shirts</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="terms.html">Terms &amp; Privacy</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="https://www.etsy.com/shop/BahawStudio" target="_blank" rel="noopener">Etsy Shop</a>
+                    <a href="mailto:info@cebulandmarket.com">Email Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 BAHAW Studio. All rights reserved.</span>
+                <a href="terms.html">Terms &amp; Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

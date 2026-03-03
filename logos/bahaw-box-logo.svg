@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" fill="#0a0a0a"/>
+  <rect x="60" y="180" width="380" height="100" fill="#ff3d00"/>
+  <text x="250" y="252" text-anchor="middle" font-family="'Oswald', 'Arial Black', sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="14">BAHAW</text>
+  <text x="250" y="320" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#666666" letter-spacing="8">CEBUANO STREETWEAR</text>
+</svg>

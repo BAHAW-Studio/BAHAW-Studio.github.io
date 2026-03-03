@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAHAW Logo 6 — Export</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #333; display: flex; flex-direction: column; align-items: center; padding: 40px; gap: 40px; font-family: 'Space Grotesk', sans-serif; color: #aaa; }
+        h2 { font-size: 0.8rem; letter-spacing: 0.3em; text-transform: uppercase; color: #ff3d00; }
+        p.note { font-size: 0.75rem; color: #666; }
+
+        /* === ETSY SHOP ICON 500x500 === */
+        .icon-500 {
+            width: 500px;
+            height: 500px;
+            background: #0a0a0a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .icon-500 .letters {
+            display: flex;
+            gap: 14px;
+        }
+        .icon-500 .letter {
+            font-family: 'Anton', sans-serif;
+            font-size: 82px;
+            color: #fff;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+        }
+        .icon-500 .letter::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: #ff3d00;
+        }
+        .icon-500 .tag {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 13px;
+            letter-spacing: 0.5em;
+            color: #ff3d00;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        /* === ETSY SHOP ICON 500x500 — WHITE VERSION === */
+        .icon-500-white {
+            width: 500px;
+            height: 500px;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .icon-500-white .letters {
+            display: flex;
+            gap: 14px;
+        }
+        .icon-500-white .letter {
+            font-family: 'Anton', sans-serif;
+            font-size: 82px;
+            color: #0a0a0a;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+        }
+        .icon-500-white .letter::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: #ff3d00;
+        }
+        .icon-500-white .tag {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 13px;
+            letter-spacing: 0.5em;
+            color: #ff3d00;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        /* === ETSY BANNER 1200x300 === */
+        .banner {
+            width: 1200px;
+            height: 300px;
+            background: #0a0a0a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .banner .letters {
+            display: flex;
+            gap: 20px;
+        }
+        .banner .letter {
+            font-family: 'Anton', sans-serif;
+            font-size: 100px;
+            color: #fff;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+        }
+        .banner .letter::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: #ff3d00;
+        }
+        .banner .tag {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 15px;
+            letter-spacing: 0.6em;
+            color: #ff3d00;
+            text-transform: uppercase;
+            margin-top: 24px;
+        }
+
+        /* === PRINTFUL / GENERAL USE — TRANSPARENT LOOK === */
+        .logo-large {
+            width: 800px;
+            height: 400px;
+            background: #0a0a0a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .logo-large .letters {
+            display: flex;
+            gap: 18px;
+        }
+        .logo-large .letter {
+            font-family: 'Anton', sans-serif;
+            font-size: 120px;
+            color: #fff;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+        }
+        .logo-large .letter::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: #ff3d00;
+        }
+        .logo-large .tag {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0.6em;
+            color: #ff3d00;
+            text-transform: uppercase;
+            margin-top: 28px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Etsy Shop Icon — Dark (500x500)</h2>
+    <div class="icon-500" id="icon-dark">
+        <div class="letters">
+            <span class="letter">B</span>
+            <span class="letter">A</span>
+            <span class="letter">H</span>
+            <span class="letter">A</span>
+            <span class="letter">W</span>
+        </div>
+        <div class="tag">Wear Your Roots</div>
+    </div>
+    <p class="note">Cmd+Shift+4 → drag over the black square to capture</p>
+
+    <h2>Etsy Shop Icon — White (500x500)</h2>
+    <div class="icon-500-white" id="icon-white">
+        <div class="letters">
+            <span class="letter">B</span>
+            <span class="letter">A</span>
+            <span class="letter">H</span>
+            <span class="letter">A</span>
+            <span class="letter">W</span>
+        </div>
+        <div class="tag">Wear Your Roots</div>
+    </div>
+    <p class="note">White version for light backgrounds</p>
+
+    <h2>Etsy Shop Banner (1200x300)</h2>
+    <div class="banner" id="banner">
+        <div class="letters">
+            <span class="letter">B</span>
+            <span class="letter">A</span>
+            <span class="letter">H</span>
+            <span class="letter">A</span>
+            <span class="letter">W</span>
+        </div>
+        <div class="tag">Wear Your Roots</div>
+    </div>
+    <p class="note">Use as your Etsy shop Big Banner</p>
+
+    <h2>Full Logo — Large (800x400)</h2>
+    <div class="logo-large" id="logo-full">
+        <div class="letters">
+            <span class="letter">B</span>
+            <span class="letter">A</span>
+            <span class="letter">H</span>
+            <span class="letter">A</span>
+            <span class="letter">W</span>
+        </div>
+        <div class="tag">Wear Your Roots</div>
+    </div>
+    <p class="note">Use for social media, website, print materials</p>
+
+</body>
+</html>

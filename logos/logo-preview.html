@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAHAW Studio — Logo Options</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Bebas+Neue&family=Anton&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #1a1a1a; color: #fff; font-family: 'Space Grotesk', sans-serif; padding: 40px; }
+        h1 { text-align: center; font-size: 1.5rem; color: #888; margin-bottom: 40px; letter-spacing: 0.3em; text-transform: uppercase; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 40px; max-width: 1200px; margin: 0 auto; }
+        .card { background: #111; border: 1px solid #333; padding: 20px; text-align: center; }
+        .card h3 { color: #ff3d00; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 16px; }
+        .logo-box { display: flex; align-items: center; justify-content: center; min-height: 300px; padding: 40px; }
+        .variants { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
+        .variant { background: #111; border: 1px solid #333; padding: 20px; text-align: center; }
+        .variant h3 { color: #ff3d00; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 12px; }
+        .variant .logo-box { min-height: 200px; padding: 20px; }
+        .note { text-align: center; color: #666; font-size: 0.85rem; margin-top: 40px; }
+
+        /* ========== LOGO 1: BLOCK BOLD ========== */
+        .logo1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo1-main {
+            font-family: 'Anton', sans-serif;
+            font-size: 80px;
+            letter-spacing: 0.25em;
+            color: #fff;
+            line-height: 1;
+        }
+        .logo1-sub {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.6em;
+            color: #ff3d00;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        .logo1-line {
+            width: 60px;
+            height: 3px;
+            background: #ff3d00;
+            margin: 4px 0;
+        }
+
+        /* ========== LOGO 2: STACKED STREET ========== */
+        .logo2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            position: relative;
+        }
+        .logo2-top {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 18px;
+            letter-spacing: 0.8em;
+            color: #ff3d00;
+            text-transform: uppercase;
+        }
+        .logo2-main {
+            font-family: 'Oswald', sans-serif;
+            font-size: 90px;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            color: #fff;
+            line-height: 1;
+            border-top: 3px solid #fff;
+            border-bottom: 3px solid #fff;
+            padding: 8px 20px;
+        }
+        .logo2-bottom {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 11px;
+            letter-spacing: 0.5em;
+            color: #888;
+            margin-top: 8px;
+        }
+
+        /* ========== LOGO 3: BOX LOGO (SUPREME STYLE) ========== */
+        .logo3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo3-box {
+            background: #ff3d00;
+            padding: 16px 36px;
+            display: inline-block;
+        }
+        .logo3-box span {
+            font-family: 'Oswald', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.2em;
+            line-height: 1;
+        }
+        .logo3-sub {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 12px;
+            letter-spacing: 0.5em;
+            color: #888;
+        }
+
+        /* ========== LOGO 4: MINIMAL SPACED ========== */
+        .logo4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+        .logo4-main {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 64px;
+            font-weight: 700;
+            letter-spacing: 0.5em;
+            color: #fff;
+            line-height: 1;
+        }
+        .logo4-divider {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            width: 100%;
+            justify-content: center;
+        }
+        .logo4-divider span {
+            height: 1px;
+            width: 60px;
+            background: #ff3d00;
+        }
+        .logo4-divider em {
+            font-style: normal;
+            font-size: 10px;
+            color: #ff3d00;
+            letter-spacing: 0.3em;
+        }
+        .logo4-sub {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 13px;
+            letter-spacing: 0.4em;
+            color: #666;
+            font-weight: 400;
+        }
+
+        /* ========== LOGO 5: ICON + TEXT (ETSY ICON READY) ========== */
+        .logo5 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo5-icon {
+            width: 100px;
+            height: 100px;
+            background: #ff3d00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotate(45deg);
+        }
+        .logo5-icon span {
+            transform: rotate(-45deg);
+            font-family: 'Oswald', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.1em;
+        }
+        .logo5-text {
+            font-family: 'Oswald', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            color: #fff;
+            margin-top: 8px;
+        }
+        .logo5-sub {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 11px;
+            letter-spacing: 0.5em;
+            color: #888;
+        }
+
+        /* ========== LOGO 6: VERTICAL STENCIL ========== */
+        .logo6 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+        .logo6-letters {
+            display: flex;
+            gap: 12px;
+        }
+        .logo6-letter {
+            font-family: 'Anton', sans-serif;
+            font-size: 72px;
+            color: #fff;
+            line-height: 1;
+            position: relative;
+        }
+        .logo6-letter::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: #ff3d00;
+        }
+        .logo6-tag {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 10px;
+            letter-spacing: 0.6em;
+            color: #ff3d00;
+            margin-top: 16px;
+            text-transform: uppercase;
+        }
+
+        /* ========== ETSY ICON VERSIONS ========== */
+        .etsy-icon {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .etsy-icon-dark {
+            background: #0a0a0a;
+        }
+        .etsy-icon-accent {
+            background: #ff3d00;
+        }
+        .etsy-icon-dark .ei-text {
+            font-family: 'Oswald', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.15em;
+            line-height: 1;
+            text-align: center;
+        }
+        .etsy-icon-dark .ei-sub {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 9px;
+            letter-spacing: 0.4em;
+            color: #ff3d00;
+            text-align: center;
+        }
+        .etsy-icon-accent .ei-text {
+            font-family: 'Oswald', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.15em;
+            line-height: 1;
+            text-align: center;
+        }
+        .etsy-icon-accent .ei-sub {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 9px;
+            letter-spacing: 0.4em;
+            color: #0a0a0a;
+            text-align: center;
+            font-weight: 600;
+        }
+        .ei-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BAHAW Studio — Logo Options</h1>
+
+    <div class="grid">
+
+        <!-- LOGO 1 -->
+        <div class="card">
+            <h3>Option 1 — Block Bold</h3>
+            <div class="logo-box">
+                <div class="logo1">
+                    <div class="logo1-main">BAHAW</div>
+                    <div class="logo1-line"></div>
+                    <div class="logo1-sub">Studio</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO 2 -->
+        <div class="card">
+            <h3>Option 2 — Stacked Street</h3>
+            <div class="logo-box">
+                <div class="logo2">
+                    <div class="logo2-top">Cebuano</div>
+                    <div class="logo2-main">BAHAW</div>
+                    <div class="logo2-bottom">Streetwear &bull; Cebu City</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO 3 -->
+        <div class="card">
+            <h3>Option 3 — Box Logo</h3>
+            <div class="logo-box">
+                <div class="logo3">
+                    <div class="logo3-box">
+                        <span>BAHAW</span>
+                    </div>
+                    <div class="logo3-sub">Cebuano Streetwear</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO 4 -->
+        <div class="card">
+            <h3>Option 4 — Minimal Spaced</h3>
+            <div class="logo-box">
+                <div class="logo4">
+                    <div class="logo4-main">BAHAW</div>
+                    <div class="logo4-divider">
+                        <span></span>
+                        <em>EST. 2026</em>
+                        <span></span>
+                    </div>
+                    <div class="logo4-sub">Cebuano Streetwear Studio</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO 5 -->
+        <div class="card">
+            <h3>Option 5 — Diamond Icon</h3>
+            <div class="logo-box">
+                <div class="logo5">
+                    <div class="logo5-icon">
+                        <span>BH</span>
+                    </div>
+                    <div class="logo5-text">BAHAW</div>
+                    <div class="logo5-sub">Cebuano Streetwear</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO 6 -->
+        <div class="card">
+            <h3>Option 6 — Underline Stencil</h3>
+            <div class="logo-box">
+                <div class="logo6">
+                    <div class="logo6-letters">
+                        <span class="logo6-letter">B</span>
+                        <span class="logo6-letter">A</span>
+                        <span class="logo6-letter">H</span>
+                        <span class="logo6-letter">A</span>
+                        <span class="logo6-letter">W</span>
+                    </div>
+                    <div class="logo6-tag">Wear Your Roots</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ETSY ICON VERSIONS (500x500 ready) -->
+    <h1 style="margin-top: 60px;">Etsy Shop Icon Versions (Square)</h1>
+    <div class="variants">
+        <div class="variant">
+            <h3>Dark Background</h3>
+            <div class="logo-box">
+                <div class="etsy-icon etsy-icon-dark">
+                    <div class="ei-inner">
+                        <div class="ei-text">BAHAW</div>
+                        <div class="ei-sub">STUDIO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="variant">
+            <h3>Accent Background</h3>
+            <div class="logo-box">
+                <div class="etsy-icon etsy-icon-accent">
+                    <div class="ei-inner">
+                        <div class="ei-text">BAHAW</div>
+                        <div class="ei-sub">STUDIO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="variant">
+            <h3>Dark — Box Style</h3>
+            <div class="logo-box">
+                <div class="etsy-icon etsy-icon-dark" style="border: 3px solid #ff3d00;">
+                    <div class="ei-inner">
+                        <div class="ei-text">BAHAW</div>
+                        <div class="ei-sub">STUDIO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="variant">
+            <h3>White on Black — Clean</h3>
+            <div class="logo-box">
+                <div class="etsy-icon etsy-icon-dark" style="border: 2px solid #333;">
+                    <div class="ei-inner">
+                        <div class="ei-text" style="font-size: 42px; letter-spacing: 0.25em;">BAHAW</div>
+                        <div style="width: 40px; height: 2px; background: #ff3d00; margin: 4px 0;"></div>
+                        <div class="ei-sub" style="color: #666;">STUDIO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="note">Right-click any logo → "Take Screenshot" or use Cmd+Shift+4 to capture.<br>All designs are 100% original — safe to use commercially.</p>
+
+</body>
+</html>
