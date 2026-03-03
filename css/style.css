@@ -309,173 +309,22 @@ ul, ol {
 /* --- HERO SECTION --- */
 .hero {
     margin-top: var(--nav-height);
-    position: relative;
-    min-height: 60vh;
+    background: #222;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
-    overflow: hidden;
-}
-
-.hero .hero-tag {
-    color: #C6972E;
-    background: rgba(198, 151, 46, 0.15);
-}
-
-.hero .hero-desc {
-    color: rgba(255,255,255,0.75);
-}
-
-.hero .hero-desc strong {
-    color: #C6972E;
-}
-
-.hero .btn-primary {
-    background: #C41E3A;
-    box-shadow: 0 4px 20px rgba(196, 30, 58, 0.3);
-}
-
-.hero .btn-primary:hover {
-    background: #d4263f;
-    box-shadow: 0 6px 28px rgba(196, 30, 58, 0.4);
-}
-
-.hero .btn-secondary {
-    color: #fff;
-    border-color: rgba(255,255,255,0.3);
-}
-
-.hero .btn-secondary:hover {
-    background: rgba(255,255,255,0.1);
-    border-color: rgba(255,255,255,0.5);
-    color: #fff;
+    justify-content: center;
+    padding: 60px 24px;
 }
 
 .hero-content {
-    max-width: var(--container);
-    margin: 0 auto;
-    padding: 80px 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-}
-
-.hero-text {
-    max-width: 640px;
-}
-
-.hero-tag {
-    display: inline-block;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--accent);
-    background: rgba(196, 149, 106, 0.1);
-    padding: 6px 16px;
-    border-radius: 20px;
-    margin-bottom: 24px;
-}
-
-.hero-title {
-    font-family: var(--font-heading);
-    font-size: clamp(2.5rem, 5vw, 3.8rem);
-    font-weight: 700;
-    line-height: 1.15;
-    margin-bottom: 20px;
-    position: relative;
-    height: 1.3em;
-    overflow: hidden;
-}
-
-/* Rotating Bisaya phrases */
-.hero-phrase {
-    position: absolute;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transform: translateY(40px) scale(0.95);
-    animation: phraseRotate 12.5s infinite;
-    letter-spacing: 0.02em;
-}
-
-.phrase-1 { color: #C41E3A; animation-delay: 0s; }
-.phrase-2 { color: #C6972E; animation-delay: 2.5s; }
-.phrase-3 { color: #2B5EA7; animation-delay: 5s; }
-.phrase-4 { color: #228B22; animation-delay: 7.5s; }
-.phrase-5 { color: #9B1B30; animation-delay: 10s; }
-
-@keyframes phraseRotate {
-    0%   { opacity: 0; transform: translateY(40px) scale(0.95); }
-    3%   { opacity: 1; transform: translateY(0) scale(1); }
-    17%  { opacity: 1; transform: translateY(0) scale(1); }
-    20%  { opacity: 0; transform: translateY(-40px) scale(0.95); }
-    100% { opacity: 0; transform: translateY(-40px) scale(0.95); }
-}
-
-.hero-desc {
-    font-size: 1.1rem;
-    color: var(--text-light);
-    line-height: 1.7;
-    margin-bottom: 32px;
-}
-
-.hero-actions {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.hero-visual {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hero-image-wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 420px;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-image-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.hero-image-placeholder {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    gap: 12px;
-}
-
-.hero-image-placeholder span:first-child {
-    font-family: var(--font-heading);
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-}
-
-.hero-image-placeholder span:last-child {
-    font-size: 0.9rem;
-    opacity: 0.8;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+.hero-logo {
+    height: 180px;
+    width: auto;
 }
 
 /* --- SECTIONS --- */
@@ -485,7 +334,7 @@ ul, ol {
 
 .section-header {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
 }
 
 .section-tag {
@@ -500,10 +349,10 @@ ul, ol {
 
 .section-title {
     font-family: var(--font-heading);
-    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 700;
     color: var(--text);
-    margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .section-desc {
@@ -1005,36 +854,44 @@ ul, ol {
 }
 
 .filter-pill {
-    padding: 10px 24px;
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    background: var(--bg-white);
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: var(--text-light);
+    padding: 12px 28px;
+    border: 2px solid #1a1a1a;
+    border-radius: 0;
+    background: transparent;
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #1a1a1a;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.25s;
+    position: relative;
 }
 
 .filter-pill:hover {
-    border-color: var(--primary);
-    color: var(--primary);
-}
-
-.filter-pill.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: #1a1a1a;
+    border-color: #1a1a1a;
     color: #fff;
 }
 
+.filter-pill.active {
+    background: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #fff;
+    border-bottom: 4px solid #e8451e;
+}
+
 .filter-count {
-    font-size: 0.75rem;
-    opacity: 0.7;
-    margin-left: 2px;
+    font-size: 0.7rem;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-left: 4px;
 }
 
 .filter-pill.active .filter-count {
-    opacity: 0.9;
+    opacity: 0.8;
+    color: #e8451e;
 }
 
 .sort-select {
@@ -2166,20 +2023,8 @@ ul, ol {
         gap: 40px;
     }
 
-    .hero-content {
-        text-align: center;
-    }
-
-    .hero-text {
-        max-width: 100%;
-    }
-
-    .hero-actions {
-        justify-content: center;
-    }
-
-    .hero-visual {
-        display: none;
+    .hero-logo {
+        height: 120px;
     }
 
     .products-grid {
@@ -2366,8 +2211,8 @@ ul, ol {
         font-size: 0.9rem;
     }
 
-    .hero-title {
-        font-size: 2rem;
+    .hero-logo {
+        height: 90px;
     }
 
     .page-title {
