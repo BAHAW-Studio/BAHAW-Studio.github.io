@@ -44,8 +44,10 @@ function getProductById(id) {
 
 // --- RENDER FEATURED PRODUCTS (homepage with filter) ---
 var currentFilter = 'all';
+var PRODUCTS_PER_PAGE = 12;
+var productsShown = PRODUCTS_PER_PAGE;
 
-function renderFeaturedProducts() {
+function renderFeaturedProducts(showAll) {
     var grid = document.getElementById('featuredGrid');
     if (!grid || typeof PRODUCTS_DATA === 'undefined') return;
 
@@ -76,7 +78,30 @@ function renderFeaturedProducts() {
         return (catOrder[a.category] || 99) - (catOrder[b.category] || 99);
     });
 
-    grid.innerHTML = filtered.map(renderProductCard).join('');
+    // Limit initial render for performance
+    var limit = showAll ? filtered.length : productsShown;
+    var visible = filtered.slice(0, limit);
+
+    grid.innerHTML = visible.map(renderProductCard).join('');
+
+    // Show/hide "Show More" button
+    var loadMoreWrap = document.getElementById('loadMoreWrap');
+    if (!loadMoreWrap) {
+        loadMoreWrap = document.createElement('div');
+        loadMoreWrap.id = 'loadMoreWrap';
+        loadMoreWrap.className = 'text-center';
+        loadMoreWrap.style.marginTop = '24px';
+        grid.parentNode.insertBefore(loadMoreWrap, grid.nextSibling);
+    }
+    if (filtered.length > limit) {
+        loadMoreWrap.innerHTML = '<button class="btn btn-secondary" id="loadMoreBtn">Show More (' + (filtered.length - limit) + ' remaining)</button>';
+        document.getElementById('loadMoreBtn').addEventListener('click', function() {
+            productsShown += PRODUCTS_PER_PAGE;
+            renderFeaturedProducts();
+        });
+    } else {
+        loadMoreWrap.innerHTML = '';
+    }
 
     // Re-observe new fade-in elements
     setTimeout(initScrollAnimations, 50);
@@ -89,6 +114,7 @@ function initFilterBar() {
             pills.forEach(function(p) { p.classList.remove('active'); });
             this.classList.add('active');
             currentFilter = this.getAttribute('data-category');
+            productsShown = PRODUCTS_PER_PAGE;
             renderFeaturedProducts();
         });
     });

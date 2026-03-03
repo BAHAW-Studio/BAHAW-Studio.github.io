@@ -43,17 +43,20 @@ function initNavScroll() {
 }
 
 // --- SCROLL ANIMATIONS ---
+var _scrollObserver = null;
 function initScrollAnimations() {
-    var observer = new IntersectionObserver(function(entries) {
+    if (_scrollObserver) _scrollObserver.disconnect();
+    _scrollObserver = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
+                _scrollObserver.unobserve(entry.target);
             }
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.fade-in').forEach(function(el) {
-        observer.observe(el);
+    document.querySelectorAll('.fade-in:not(.visible)').forEach(function(el) {
+        _scrollObserver.observe(el);
     });
 }
 

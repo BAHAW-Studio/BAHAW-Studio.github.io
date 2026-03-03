@@ -1,20 +1,14 @@
-// BAHAW Studio — Service Worker v5
-var CACHE_NAME = 'bahaw-v6';
+// BAHAW Studio — Service Worker v7
+var CACHE_NAME = 'bahaw-v7';
 var URLS_TO_CACHE = [
     '/',
     '/index.html',
-    '/shop.html',
-    '/product.html',
-    '/cart.html',
-    '/checkout.html',
     '/about.html',
     '/contact.html',
     '/terms.html',
     '/css/style.css',
     '/js/app.js',
-    '/js/cart.js',
     '/js/products.js',
-    '/js/checkout.js',
     '/data/products.js',
     '/BAHAW-Studio-PP.png',
     '/manifest.json'
@@ -50,7 +44,6 @@ self.addEventListener('activate', function(event) {
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         fetch(event.request).then(function(response) {
-            // Cache successful responses
             if (response && response.status === 200 && response.type === 'basic') {
                 var responseClone = response.clone();
                 caches.open(CACHE_NAME).then(function(cache) {
