@@ -792,8 +792,8 @@ var PRODUCTS_DATA = [
     },
     {
         "id": "17",
-        "name": "LAMI KAAYO! - Bisaya Toddler Streetwear Tee",
-        "category": "tshirts",
+        "name": "LAMI KAAYO! - Bisaya Kids Streetwear Tee",
+        "category": "kids",
         "price": 23.0,
         "photo_url": "images/products/product-24-lami-kaayo-bahaw-bisaya-toddler-streetwear-tee.jpg",
         "etsy_url": "https://www.etsy.com/listing/4465253262",
@@ -812,7 +812,7 @@ var PRODUCTS_DATA = [
     {
         "id": "18",
         "name": "LAMI KAAYO! - Bisaya Youth Streetwear Tee",
-        "category": "tshirts",
+        "category": "youth",
         "price": 17.54,
         "photo_url": "images/products/product-25-lami-kaayo-bahaw-bisaya-youth-streetwear-tee.jpg",
         "etsy_url": "https://www.etsy.com/listing/4465247541",
@@ -1699,7 +1699,7 @@ var PRODUCTS_DATA = [
     {
         "id": "45",
         "name": "LAMI KAAYO! - BAHAW Bisaya Youth Streetwear Tee (Design B)",
-        "category": "tshirts",
+        "category": "youth",
         "price": 24.5,
         "photo_url": "images/products/product-65-lami-kaayo--bahaw-bisaya-youth-streetwear-tee-design-b.jpg",
         "etsy_url": "https://www.etsy.com/listing/4465247029",

@@ -54,7 +54,7 @@ function renderFeaturedProducts() {
     });
 
     // Update category counts (count total color variants)
-    var counts = { all: 0, caps: 0, snapbacks: 0, beanies: 0, visors: 0, tshirts: 0, oversized: 0 };
+    var counts = { all: 0, caps: 0, snapbacks: 0, beanies: 0, visors: 0, tshirts: 0, oversized: 0, kids: 0, youth: 0 };
     active.forEach(function(p) {
         var colorCount = (p.colors && p.colors.length) ? p.colors.length : 1;
         counts.all += colorCount;
@@ -71,7 +71,7 @@ function renderFeaturedProducts() {
     });
 
     // Sort: group by category order
-    var catOrder = { caps: 1, snapbacks: 2, beanies: 3, visors: 4, tshirts: 5, oversized: 6 };
+    var catOrder = { caps: 1, snapbacks: 2, beanies: 3, visors: 4, tshirts: 5, oversized: 6, kids: 7, youth: 8 };
     filtered.sort(function(a, b) {
         return (catOrder[a.category] || 99) - (catOrder[b.category] || 99);
     });
