@@ -159,7 +159,7 @@ function showCheckoutSuccess() {
                 '<div class="gcash-detail"><span class="label">Account Name</span><span class="value">CebuLandMarket</span></div>' +
                 '<div class="gcash-detail"><span class="label">Amount</span><span class="value">' + formatPrice(total) + '</span></div>' +
                 '<div class="gcash-detail"><span class="label">Reference</span><span class="value">' + orderRef + '</span></div>' +
-                '<div class="gcash-note">After sending payment, please screenshot the GCash receipt and send it to us via Messenger or email at info@cebulandmarket.com. Include your order reference: ' + orderRef + '</div>' +
+                '<div class="gcash-note">After sending payment, please screenshot the GCash receipt and send it to us via Messenger or email at r.reafil2@gmail.com. Include your order reference: ' + orderRef + '</div>' +
             '</div>' +
             '<p>We\'ll confirm your payment and process your order within 24 hours.</p>' +
             '<a href="shop.html" class="btn btn-primary mt-24">Continue Shopping</a>' +
