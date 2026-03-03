@@ -855,5 +855,950 @@ var PRODUCTS_DATA = [
             }
         ],
         "status": "active"
+    },
+    {
+        "id": "21",
+        "name": "Unsay Problema Oversized Organic Tee",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-41-unsay-problema-oversized-organic-tee.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465892975",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "22",
+        "name": "Unsay Problema Oversized Organic Tee",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-42-unsay-problema-oversized-organic-tee.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465895022",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "23",
+        "name": "Bisaya Ko Oversized Organic Tee",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-43-bisaya-ko-oversized-organic-tee.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465889723",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "24",
+        "name": "BISAYA KO! Oversized Organic Tee",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-44-bisaya-ko-oversized-organic-tee.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465887523",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "25",
+        "name": "AMBOT NIMO! Oversized Organic Tee",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-45-ambot-nimo-oversized-organic-tee.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465890474",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "26",
+        "name": "NAA PAY BUGAS? Oversized Organic Tee",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-46-naa-pay-bugas-oversized-organic-tee.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465884867",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "27",
+        "name": "NAA PAY BUGAS? Oversized shirt",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-47-naa-pay-bugas-oversized-shirt.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465888334",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "28",
+        "name": "LAMI KAAYO! Oversized Shirt",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-48-lami-kaayo-oversized-shirt.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465885886",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "29",
+        "name": "Lami Kaayo Oversized Shirt",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-49-lami-kaayo-oversized-shirt.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465878569",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "30",
+        "name": "AMBOT NIMO! Oversized Organic Tee",
+        "category": "oversized",
+        "price": 36.0,
+        "photo_url": "images/products/product-50-ambot-nimo-oversized-organic-tee.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465881618",
+        "colors": [
+            {
+                        "name": "French Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Anthracite",
+                        "hex": "#333333"
+            },
+            {
+                        "name": "Desert Dust",
+                        "hex": "#C3B091"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "31",
+        "name": "UNSAY PROBLEMA? - Bahaw Bisaya Streetwear Tee (DESIGN B)",
+        "category": "tshirts",
+        "price": 21.5,
+        "photo_url": "images/products/placeholder.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465738560",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Military Green",
+                        "hex": "#4B5320"
+            },
+            {
+                        "name": "Vintage Black",
+                        "hex": "#333333"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "32",
+        "name": "AMBOT NIMO! - Bahaw Bisaya Streetwear Tee (Design B)",
+        "category": "tshirts",
+        "price": 22.5,
+        "photo_url": "images/products/placeholder.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465736146",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Military Green",
+                        "hex": "#4B5320"
+            },
+            {
+                        "name": "Vintage Black",
+                        "hex": "#333333"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "33",
+        "name": "I'm Bisaya! - Bisaya Streetwear Tee (Design A)",
+        "category": "tshirts",
+        "price": 22.5,
+        "photo_url": "images/products/placeholder.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465727163",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Military Green",
+                        "hex": "#4B5320"
+            },
+            {
+                        "name": "Vintage Black",
+                        "hex": "#333333"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "34",
+        "name": "AMBOT NIMO! - BAHAW Bisaya Structured Cap (Design B)",
+        "category": "caps",
+        "price": 32.0,
+        "photo_url": "images/products/product-54-ambot-nimo--bahaw-bisaya-structured-cap-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465267688",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Dark Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Grey",
+                        "hex": "#9B9EA1"
+            },
+            {
+                        "name": "Khaki",
+                        "hex": "#C3B091"
+            },
+            {
+                        "name": "Olive",
+                        "hex": "#556B2F"
+            },
+            {
+                        "name": "Red",
+                        "hex": "#C41E3A"
+            },
+            {
+                        "name": "Royal Blue",
+                        "hex": "#2B5EA7"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "35",
+        "name": "LAMI KAAYO! - Bahaw Bisaya Structured Cap (Design B)",
+        "category": "caps",
+        "price": 32.0,
+        "photo_url": "images/products/product-55-lami-kaayo--bahaw-bisaya-structured-cap-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465266794",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Dark Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Grey",
+                        "hex": "#9B9EA1"
+            },
+            {
+                        "name": "Khaki",
+                        "hex": "#C3B091"
+            },
+            {
+                        "name": "Olive",
+                        "hex": "#556B2F"
+            },
+            {
+                        "name": "Red",
+                        "hex": "#C41E3A"
+            },
+            {
+                        "name": "Royal Blue",
+                        "hex": "#2B5EA7"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "36",
+        "name": "NAA PAY BUGAS? - Bahaw Bisaya Structured Cap (Design B)",
+        "category": "caps",
+        "price": 32.0,
+        "photo_url": "images/products/product-56-naa-pay-bugas--bahaw-bisaya-structured-cap-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465265894",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Dark Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Grey",
+                        "hex": "#9B9EA1"
+            },
+            {
+                        "name": "Khaki",
+                        "hex": "#C3B091"
+            },
+            {
+                        "name": "Olive",
+                        "hex": "#556B2F"
+            },
+            {
+                        "name": "Red",
+                        "hex": "#C41E3A"
+            },
+            {
+                        "name": "Royal Blue",
+                        "hex": "#2B5EA7"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "37",
+        "name": "BISAYA KO! - Bahaw Bisaya Structured Cap (Design B)",
+        "category": "caps",
+        "price": 32.0,
+        "photo_url": "images/products/product-57-bisaya-ko--bahaw-bisaya-structured-cap-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465259979",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Dark Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Grey",
+                        "hex": "#9B9EA1"
+            },
+            {
+                        "name": "Khaki",
+                        "hex": "#C3B091"
+            },
+            {
+                        "name": "Olive",
+                        "hex": "#556B2F"
+            },
+            {
+                        "name": "Red",
+                        "hex": "#C41E3A"
+            },
+            {
+                        "name": "Royal Blue",
+                        "hex": "#2B5EA7"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "38",
+        "name": "UNSAY PROBLEMA? - BAHAW Bisaya Structured Cap (Design B)",
+        "category": "caps",
+        "price": 28.5,
+        "photo_url": "images/products/product-58-unsay-problema--bahaw-bisaya-structured-cap-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465258577",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Dark Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "Grey",
+                        "hex": "#9B9EA1"
+            },
+            {
+                        "name": "Khaki",
+                        "hex": "#C3B091"
+            },
+            {
+                        "name": "Olive",
+                        "hex": "#556B2F"
+            },
+            {
+                        "name": "Red",
+                        "hex": "#C41E3A"
+            },
+            {
+                        "name": "Royal Blue",
+                        "hex": "#2B5EA7"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "39",
+        "name": "UNSAY PROBLEMA? - BAHAW  Bisaya Snapback Hat (Design B)",
+        "category": "snapbacks",
+        "price": 25.0,
+        "photo_url": "images/products/product-59-unsay-problema--bahaw-bisaya-snapback-hat-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465256787",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Cranberry",
+                        "hex": "#9B1B30"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "40",
+        "name": "BISAYA KO! - Bahaw Bisaya Snapback Hat (Design B)",
+        "category": "snapbacks",
+        "price": 25.0,
+        "photo_url": "images/products/product-60-bisaya-ko--bahaw-bisaya-snapback-hat-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465255689",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Cranberry",
+                        "hex": "#9B1B30"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "41",
+        "name": "NAA PAY BUGAS? - Bahaw Bisaya Snapback Hat (Design B)",
+        "category": "snapbacks",
+        "price": 25.0,
+        "photo_url": "images/products/product-61-naa-pay-bugas--bahaw-bisaya-snapback-hat-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465259748",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Cranberry",
+                        "hex": "#9B1B30"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "42",
+        "name": "LAMI KAAYO! - BAHAW Bisaya Snapback Hat (Design B)",
+        "category": "snapbacks",
+        "price": 25.0,
+        "photo_url": "images/products/product-62-lami-kaayo--bahaw-bisaya-snapback-hat-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465253531",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Cranberry",
+                        "hex": "#9B1B30"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "43",
+        "name": "AMBOT NIMO! - BAHAW Bisaya Visor (Design B)",
+        "category": "visors",
+        "price": 23.5,
+        "photo_url": "images/products/product-63-ambot-nimo--bahaw-bisaya-visor-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465252443",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Military Green",
+                        "hex": "#4B5320"
+            },
+            {
+                        "name": "Vintage Black",
+                        "hex": "#333333"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "44",
+        "name": "AMBOT NIMO! - BAHAW Bisaya Snapback Hat (Design B)",
+        "category": "snapbacks",
+        "price": 25.0,
+        "photo_url": "images/products/product-64-ambot-nimo--bahaw-bisaya-snapback-hat-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465254670",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Cranberry",
+                        "hex": "#9B1B30"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "45",
+        "name": "LAMI KAAYO! - BAHAW Bisaya Youth Streetwear Tee (Design B)",
+        "category": "tshirts",
+        "price": 24.5,
+        "photo_url": "images/products/product-65-lami-kaayo--bahaw-bisaya-youth-streetwear-tee-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465247029",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Military Green",
+                        "hex": "#4B5320"
+            },
+            {
+                        "name": "Vintage Black",
+                        "hex": "#333333"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "46",
+        "name": "LAMI KAAYO! - BAHAW Bisaya Streetwear Tee (Design B)",
+        "category": "tshirts",
+        "price": 22.0,
+        "photo_url": "images/products/product-66-lami-kaayo--bahaw-bisaya-streetwear-tee-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465244388",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Military Green",
+                        "hex": "#4B5320"
+            },
+            {
+                        "name": "Vintage Black",
+                        "hex": "#333333"
+            }
+],
+        "status": "active"
+    },
+    {
+        "id": "47",
+        "name": "NAA PAY BUGAS? - Bahaw Bisaya Streetwear Tee (Design B)",
+        "category": "tshirts",
+        "price": 22.5,
+        "photo_url": "images/products/product-67-naa-pay-bugas--bahaw-bisaya-streetwear-tee-design-b.jpg",
+        "etsy_url": "https://www.etsy.com/listing/4465237277",
+        "colors": [
+            {
+                        "name": "Black",
+                        "hex": "#222222"
+            },
+            {
+                        "name": "Dark Grey",
+                        "hex": "#4A4A4A"
+            },
+            {
+                        "name": "Navy",
+                        "hex": "#1B2A4A"
+            },
+            {
+                        "name": "White",
+                        "hex": "#FFFFFF"
+            },
+            {
+                        "name": "Military Green",
+                        "hex": "#4B5320"
+            },
+            {
+                        "name": "Vintage Black",
+                        "hex": "#333333"
+            }
+],
+        "status": "active"
     }
 ];
