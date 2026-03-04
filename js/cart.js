@@ -17,6 +17,15 @@ function getCart() {
     }
 }
 
+// --- UPDATE CART BADGE ---
+function updateCartBadge() {
+    var badge = document.querySelector('.cart-badge');
+    if (!badge) return;
+    var count = getCartCount();
+    badge.textContent = count > 0 ? count : '';
+    badge.style.display = count > 0 ? '' : 'none';
+}
+
 // --- SAVE CART ---
 function saveCart(cart) {
     localStorage.setItem(CART_KEY, JSON.stringify(cart));
@@ -127,23 +136,4 @@ function clearCart() {
     updateCartBadge();
 }
 
-// --- SHOW TOAST ---
-function showCartToast(msg) {
-    // Remove existing toast
-    var existing = document.querySelector('.toast');
-    if (existing) existing.remove();
-
-    var toast = document.createElement('div');
-    toast.className = 'toast';
-    toast.textContent = msg;
-    document.body.appendChild(toast);
-
-    // Trigger animation
-    setTimeout(function() { toast.classList.add('show'); }, 10);
-
-    // Auto dismiss
-    setTimeout(function() {
-        toast.classList.remove('show');
-        setTimeout(function() { toast.remove(); }, 400);
-    }, 2500);
-}
+// showCartToast() moved to app.js (available on all pages)

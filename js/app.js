@@ -4,10 +4,26 @@
 
 // --- FORMAT PRICE ---
 function formatPrice(amount) {
-    return '$' + Number(amount).toFixed(2);
+    return '₱' + Number(amount).toFixed(2);
 }
 
-// --- (Cart removed — purchases via Etsy) ---
+// --- SHOW TOAST ---
+function showCartToast(msg) {
+    var existing = document.querySelector('.toast');
+    if (existing) existing.remove();
+
+    var toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = msg;
+    document.body.appendChild(toast);
+
+    setTimeout(function() { toast.classList.add('show'); }, 10);
+
+    setTimeout(function() {
+        toast.classList.remove('show');
+        setTimeout(function() { toast.remove(); }, 400);
+    }, 2500);
+}
 
 // --- MOBILE NAV ---
 function initMobileNav() {
@@ -75,6 +91,9 @@ function generateOrderRef() {
 document.addEventListener('DOMContentLoaded', function() {
     initMobileNav();
     initNavScroll();
+
+    // Update cart badge if cart system is loaded
+    if (typeof updateCartBadge === 'function') updateCartBadge();
 
     // Delay scroll animations slightly to let DOM settle
     setTimeout(initScrollAnimations, 100);
