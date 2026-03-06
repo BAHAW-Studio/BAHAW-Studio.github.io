@@ -474,6 +474,7 @@ ul, ol {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s;
+    will-change: transform;
 }
 
 .product-card:hover .product-card-img img {
@@ -562,6 +563,43 @@ ul, ol {
     text-decoration: line-through;
 }
 
+.product-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.design-toggle {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.design-btn {
+    flex: 1;
+    padding: 5px 10px;
+    border: 2px solid var(--border-light);
+    border-radius: 6px;
+    background: transparent;
+    color: var(--text-light);
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 0.5px;
+}
+
+.design-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.design-btn.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+}
+
 .product-card-colors {
     display: flex;
     gap: 6px;
@@ -581,6 +619,17 @@ ul, ol {
 .color-dot:hover {
     border-color: var(--text);
     transform: scale(1.2);
+}
+
+.color-dot-more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    min-width: 18px;
+    height: 18px;
 }
 
 /* --- VARIANT THUMBNAILS --- */
@@ -629,6 +678,8 @@ ul, ol {
     transition: transform 0.3s, box-shadow 0.3s;
     text-decoration: none;
     color: inherit;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 300px;
     display: block;
 }
 

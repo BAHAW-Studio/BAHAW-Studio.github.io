@@ -1,5 +1,5 @@
-// BAHAW Studio — Service Worker v7
-var CACHE_NAME = 'bahaw-v7';
+// BAHAW Studio — Service Worker v9
+var CACHE_NAME = 'bahaw-v9';
 var URLS_TO_CACHE = [
     '/',
     '/index.html',

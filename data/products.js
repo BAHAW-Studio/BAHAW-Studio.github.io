@@ -45,7 +45,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "35",
+            "name": "LAMI KAAYO! - Bahaw Bisaya Structured Cap (Design B)",
+            "photo_url": "images/products/product-55-lami-kaayo--bahaw-bisaya-structured-cap-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465266794",
+            "price": 32.0
+        }
     },
     {
         "id": "4",
@@ -92,7 +99,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "36",
+            "name": "NAA PAY BUGAS? - Bahaw Bisaya Structured Cap (Design B)",
+            "photo_url": "images/products/product-56-naa-pay-bugas--bahaw-bisaya-structured-cap-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465265894",
+            "price": 32.0
+        }
     },
     {
         "id": "5",
@@ -139,7 +153,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "38",
+            "name": "UNSAY PROBLEMA? - BAHAW Bisaya Structured Cap (Design B)",
+            "photo_url": "images/products/product-58-unsay-problema--bahaw-bisaya-structured-cap-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465258577",
+            "price": 28.5
+        }
     },
     {
         "id": "2",
@@ -186,7 +207,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "37",
+            "name": "BISAYA KO! - Bahaw Bisaya Structured Cap (Design B)",
+            "photo_url": "images/products/product-57-bisaya-ko--bahaw-bisaya-structured-cap-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465259979",
+            "price": 32.0
+        }
     },
     {
         "id": "1",
@@ -233,7 +261,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "34",
+            "name": "AMBOT NIMO! - BAHAW Bisaya Structured Cap (Design B)",
+            "photo_url": "images/products/product-54-ambot-nimo--bahaw-bisaya-structured-cap-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465267688",
+            "price": 32.0
+        }
     },
     {
         "id": "8",
@@ -284,7 +319,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "42",
+            "name": "LAMI KAAYO! - BAHAW Bisaya Snapback Hat (Design B)",
+            "photo_url": "images/products/product-62-lami-kaayo--bahaw-bisaya-snapback-hat-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465253531",
+            "price": 25.0
+        }
     },
     {
         "id": "9",
@@ -335,7 +377,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "41",
+            "name": "NAA PAY BUGAS? - Bahaw Bisaya Snapback Hat (Design B)",
+            "photo_url": "images/products/product-61-naa-pay-bugas--bahaw-bisaya-snapback-hat-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465259748",
+            "price": 25.0
+        }
     },
     {
         "id": "10",
@@ -386,7 +435,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "39",
+            "name": "UNSAY PROBLEMA? - BAHAW  Bisaya Snapback Hat (Design B)",
+            "photo_url": "images/products/product-59-unsay-problema--bahaw-bisaya-snapback-hat-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465256787",
+            "price": 25.0
+        }
     },
     {
         "id": "7",
@@ -437,7 +493,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "40",
+            "name": "BISAYA KO! - Bahaw Bisaya Snapback Hat (Design B)",
+            "photo_url": "images/products/product-60-bisaya-ko--bahaw-bisaya-snapback-hat-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465255689",
+            "price": 25.0
+        }
     },
     {
         "id": "6",
@@ -488,7 +551,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "44",
+            "name": "AMBOT NIMO! - BAHAW Bisaya Snapback Hat (Design B)",
+            "photo_url": "images/products/product-64-ambot-nimo--bahaw-bisaya-snapback-hat-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465254670",
+            "price": 25.0
+        }
     },
     {
         "id": "11",
@@ -554,7 +624,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "43",
+            "name": "AMBOT NIMO! - BAHAW Bisaya Visor (Design B)",
+            "photo_url": "images/products/product-63-ambot-nimo--bahaw-bisaya-visor-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465252443",
+            "price": 23.5
+        }
     },
     {
         "id": "16",
@@ -609,7 +686,14 @@ var PRODUCTS_DATA = [
                 "hex": "#F4D03F"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "46",
+            "name": "LAMI KAAYO! - BAHAW Bisaya Streetwear Tee (Design B)",
+            "photo_url": "images/products/product-66-lami-kaayo--bahaw-bisaya-streetwear-tee-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465244388",
+            "price": 22.0
+        }
     },
     {
         "id": "19",
@@ -656,7 +740,14 @@ var PRODUCTS_DATA = [
                 "hex": "#F4D03F"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "47",
+            "name": "NAA PAY BUGAS? - Bahaw Bisaya Streetwear Tee (Design B)",
+            "photo_url": "images/products/product-67-naa-pay-bugas--bahaw-bisaya-streetwear-tee-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465237277",
+            "price": 22.5
+        }
     },
     {
         "id": "20",
@@ -695,7 +786,14 @@ var PRODUCTS_DATA = [
                 "hex": "#333333"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "31",
+            "name": "UNSAY PROBLEMA? - Bahaw Bisaya Streetwear Tee (DESIGN B)",
+            "photo_url": "images/products/placeholder.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465738560",
+            "price": 21.5
+        }
     },
     {
         "id": "15",
@@ -757,7 +855,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "32",
+            "name": "AMBOT NIMO! - Bahaw Bisaya Streetwear Tee (Design B)",
+            "photo_url": "images/products/placeholder.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465736146",
+            "price": 22.5
+        }
     },
     {
         "id": "14",
@@ -854,7 +959,14 @@ var PRODUCTS_DATA = [
                 "hex": "#FFFFFF"
             }
         ],
-        "status": "active"
+        "status": "active",
+        "design_b": {
+            "id": "45",
+            "name": "LAMI KAAYO! - BAHAW Bisaya Youth Streetwear Tee (Design B)",
+            "photo_url": "images/products/product-65-lami-kaayo--bahaw-bisaya-youth-streetwear-tee-design-b.jpg",
+            "etsy_url": "https://www.etsy.com/listing/4465247029",
+            "price": 24.5
+        }
     },
     {
         "id": "21",
@@ -865,26 +977,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465892975",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -896,26 +1008,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465895022",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -927,26 +1039,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465889723",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -958,26 +1070,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465887523",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -989,26 +1101,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465890474",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -1020,26 +1132,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465884867",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -1051,26 +1163,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465888334",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -1082,26 +1194,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465885886",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -1113,26 +1225,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465878569",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
+        ],
         "status": "active"
     },
     {
@@ -1144,96 +1256,26 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465881618",
         "colors": [
             {
-                        "name": "French Navy",
-                        "hex": "#1B2A4A"
+                "name": "French Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Anthracite",
-                        "hex": "#333333"
+                "name": "Anthracite",
+                "hex": "#333333"
             },
             {
-                        "name": "Desert Dust",
-                        "hex": "#C3B091"
+                "name": "Desert Dust",
+                "hex": "#C3B091"
             }
-],
-        "status": "active"
-    },
-    {
-        "id": "31",
-        "name": "UNSAY PROBLEMA? - Bahaw Bisaya Streetwear Tee (DESIGN B)",
-        "category": "tshirts",
-        "price": 21.5,
-        "photo_url": "images/products/placeholder.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465738560",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Military Green",
-                        "hex": "#4B5320"
-            },
-            {
-                        "name": "Vintage Black",
-                        "hex": "#333333"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "32",
-        "name": "AMBOT NIMO! - Bahaw Bisaya Streetwear Tee (Design B)",
-        "category": "tshirts",
-        "price": 22.5,
-        "photo_url": "images/products/placeholder.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465736146",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Military Green",
-                        "hex": "#4B5320"
-            },
-            {
-                        "name": "Vintage Black",
-                        "hex": "#333333"
-            }
-],
+        ],
         "status": "active"
     },
     {
@@ -1245,560 +1287,30 @@ var PRODUCTS_DATA = [
         "etsy_url": "https://www.etsy.com/listing/4465727163",
         "colors": [
             {
-                        "name": "Black",
-                        "hex": "#222222"
+                "name": "Black",
+                "hex": "#222222"
             },
             {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
+                "name": "Dark Grey",
+                "hex": "#4A4A4A"
             },
             {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
+                "name": "Navy",
+                "hex": "#1B2A4A"
             },
             {
-                        "name": "White",
-                        "hex": "#FFFFFF"
+                "name": "White",
+                "hex": "#FFFFFF"
             },
             {
-                        "name": "Military Green",
-                        "hex": "#4B5320"
+                "name": "Military Green",
+                "hex": "#4B5320"
             },
             {
-                        "name": "Vintage Black",
-                        "hex": "#333333"
+                "name": "Vintage Black",
+                "hex": "#333333"
             }
-],
-        "status": "active"
-    },
-    {
-        "id": "34",
-        "name": "AMBOT NIMO! - BAHAW Bisaya Structured Cap (Design B)",
-        "category": "caps",
-        "price": 32.0,
-        "photo_url": "images/products/product-54-ambot-nimo--bahaw-bisaya-structured-cap-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465267688",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Dark Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "Grey",
-                        "hex": "#9B9EA1"
-            },
-            {
-                        "name": "Khaki",
-                        "hex": "#C3B091"
-            },
-            {
-                        "name": "Olive",
-                        "hex": "#556B2F"
-            },
-            {
-                        "name": "Red",
-                        "hex": "#C41E3A"
-            },
-            {
-                        "name": "Royal Blue",
-                        "hex": "#2B5EA7"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "35",
-        "name": "LAMI KAAYO! - Bahaw Bisaya Structured Cap (Design B)",
-        "category": "caps",
-        "price": 32.0,
-        "photo_url": "images/products/product-55-lami-kaayo--bahaw-bisaya-structured-cap-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465266794",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Dark Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "Grey",
-                        "hex": "#9B9EA1"
-            },
-            {
-                        "name": "Khaki",
-                        "hex": "#C3B091"
-            },
-            {
-                        "name": "Olive",
-                        "hex": "#556B2F"
-            },
-            {
-                        "name": "Red",
-                        "hex": "#C41E3A"
-            },
-            {
-                        "name": "Royal Blue",
-                        "hex": "#2B5EA7"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "36",
-        "name": "NAA PAY BUGAS? - Bahaw Bisaya Structured Cap (Design B)",
-        "category": "caps",
-        "price": 32.0,
-        "photo_url": "images/products/product-56-naa-pay-bugas--bahaw-bisaya-structured-cap-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465265894",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Dark Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "Grey",
-                        "hex": "#9B9EA1"
-            },
-            {
-                        "name": "Khaki",
-                        "hex": "#C3B091"
-            },
-            {
-                        "name": "Olive",
-                        "hex": "#556B2F"
-            },
-            {
-                        "name": "Red",
-                        "hex": "#C41E3A"
-            },
-            {
-                        "name": "Royal Blue",
-                        "hex": "#2B5EA7"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "37",
-        "name": "BISAYA KO! - Bahaw Bisaya Structured Cap (Design B)",
-        "category": "caps",
-        "price": 32.0,
-        "photo_url": "images/products/product-57-bisaya-ko--bahaw-bisaya-structured-cap-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465259979",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Dark Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "Grey",
-                        "hex": "#9B9EA1"
-            },
-            {
-                        "name": "Khaki",
-                        "hex": "#C3B091"
-            },
-            {
-                        "name": "Olive",
-                        "hex": "#556B2F"
-            },
-            {
-                        "name": "Red",
-                        "hex": "#C41E3A"
-            },
-            {
-                        "name": "Royal Blue",
-                        "hex": "#2B5EA7"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "38",
-        "name": "UNSAY PROBLEMA? - BAHAW Bisaya Structured Cap (Design B)",
-        "category": "caps",
-        "price": 28.5,
-        "photo_url": "images/products/product-58-unsay-problema--bahaw-bisaya-structured-cap-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465258577",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Dark Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "Grey",
-                        "hex": "#9B9EA1"
-            },
-            {
-                        "name": "Khaki",
-                        "hex": "#C3B091"
-            },
-            {
-                        "name": "Olive",
-                        "hex": "#556B2F"
-            },
-            {
-                        "name": "Red",
-                        "hex": "#C41E3A"
-            },
-            {
-                        "name": "Royal Blue",
-                        "hex": "#2B5EA7"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "39",
-        "name": "UNSAY PROBLEMA? - BAHAW  Bisaya Snapback Hat (Design B)",
-        "category": "snapbacks",
-        "price": 25.0,
-        "photo_url": "images/products/product-59-unsay-problema--bahaw-bisaya-snapback-hat-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465256787",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Cranberry",
-                        "hex": "#9B1B30"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "40",
-        "name": "BISAYA KO! - Bahaw Bisaya Snapback Hat (Design B)",
-        "category": "snapbacks",
-        "price": 25.0,
-        "photo_url": "images/products/product-60-bisaya-ko--bahaw-bisaya-snapback-hat-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465255689",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Cranberry",
-                        "hex": "#9B1B30"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "41",
-        "name": "NAA PAY BUGAS? - Bahaw Bisaya Snapback Hat (Design B)",
-        "category": "snapbacks",
-        "price": 25.0,
-        "photo_url": "images/products/product-61-naa-pay-bugas--bahaw-bisaya-snapback-hat-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465259748",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Cranberry",
-                        "hex": "#9B1B30"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "42",
-        "name": "LAMI KAAYO! - BAHAW Bisaya Snapback Hat (Design B)",
-        "category": "snapbacks",
-        "price": 25.0,
-        "photo_url": "images/products/product-62-lami-kaayo--bahaw-bisaya-snapback-hat-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465253531",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Cranberry",
-                        "hex": "#9B1B30"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "43",
-        "name": "AMBOT NIMO! - BAHAW Bisaya Visor (Design B)",
-        "category": "visors",
-        "price": 23.5,
-        "photo_url": "images/products/product-63-ambot-nimo--bahaw-bisaya-visor-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465252443",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Military Green",
-                        "hex": "#4B5320"
-            },
-            {
-                        "name": "Vintage Black",
-                        "hex": "#333333"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "44",
-        "name": "AMBOT NIMO! - BAHAW Bisaya Snapback Hat (Design B)",
-        "category": "snapbacks",
-        "price": 25.0,
-        "photo_url": "images/products/product-64-ambot-nimo--bahaw-bisaya-snapback-hat-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465254670",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Cranberry",
-                        "hex": "#9B1B30"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "45",
-        "name": "LAMI KAAYO! - BAHAW Bisaya Youth Streetwear Tee (Design B)",
-        "category": "youth",
-        "price": 24.5,
-        "photo_url": "images/products/product-65-lami-kaayo--bahaw-bisaya-youth-streetwear-tee-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465247029",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Military Green",
-                        "hex": "#4B5320"
-            },
-            {
-                        "name": "Vintage Black",
-                        "hex": "#333333"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "46",
-        "name": "LAMI KAAYO! - BAHAW Bisaya Streetwear Tee (Design B)",
-        "category": "tshirts",
-        "price": 22.0,
-        "photo_url": "images/products/product-66-lami-kaayo--bahaw-bisaya-streetwear-tee-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465244388",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Military Green",
-                        "hex": "#4B5320"
-            },
-            {
-                        "name": "Vintage Black",
-                        "hex": "#333333"
-            }
-],
-        "status": "active"
-    },
-    {
-        "id": "47",
-        "name": "NAA PAY BUGAS? - Bahaw Bisaya Streetwear Tee (Design B)",
-        "category": "tshirts",
-        "price": 22.5,
-        "photo_url": "images/products/product-67-naa-pay-bugas--bahaw-bisaya-streetwear-tee-design-b.jpg",
-        "etsy_url": "https://www.etsy.com/listing/4465237277",
-        "colors": [
-            {
-                        "name": "Black",
-                        "hex": "#222222"
-            },
-            {
-                        "name": "Dark Grey",
-                        "hex": "#4A4A4A"
-            },
-            {
-                        "name": "Navy",
-                        "hex": "#1B2A4A"
-            },
-            {
-                        "name": "White",
-                        "hex": "#FFFFFF"
-            },
-            {
-                        "name": "Military Green",
-                        "hex": "#4B5320"
-            },
-            {
-                        "name": "Vintage Black",
-                        "hex": "#333333"
-            }
-],
+        ],
         "status": "active"
     }
 ];

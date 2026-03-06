@@ -55,22 +55,25 @@ function initNavScroll() {
         } else {
             nav.classList.remove('scrolled');
         }
-    });
+    }, { passive: true });
 }
 
 // --- SCROLL ANIMATIONS ---
 var _scrollObserver = null;
 function initScrollAnimations() {
-    if (_scrollObserver) _scrollObserver.disconnect();
-    _scrollObserver = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                _scrollObserver.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
+    // Create observer once — never disconnect it
+    if (!_scrollObserver) {
+        _scrollObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    _scrollObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+    }
 
+    // Observe any new fade-in elements not yet visible
     document.querySelectorAll('.fade-in:not(.visible)').forEach(function(el) {
         _scrollObserver.observe(el);
     });

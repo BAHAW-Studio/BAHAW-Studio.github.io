@@ -21,7 +21,7 @@
     <nav class="nav" id="nav">
         <div class="nav-inner">
             <a href="index.html" class="nav-logo">
-                <img src="BAHAW-Studio-PP.png" alt="BAHAW Studio">
+                <img src="BAHAW-Studio-PP.png" alt="BAHAW Studio" width="40" height="40">
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Menu">
                 <span></span>
@@ -45,17 +45,17 @@
     <section class="new-drop">
         <div class="new-drop-inner">
             <div class="new-drop-img">
-                <img src="images/new-drop-left.jpg" alt="KAPOY NA KO! Oversized Organic Tee — BAHAW Studio">
+                <img src="images/new-drop-left.jpg" alt="KAPOY NA KO! Oversized Organic Tee — BAHAW Studio" width="400" height="500" decoding="async">
             </div>
             <div class="new-drop-center">
-                <img src="BAHAW-Studio-PP-trimmed.png" alt="BAHAW Studio" class="new-drop-logo">
+                <img src="BAHAW-Studio-PP-trimmed.png" alt="BAHAW Studio" class="new-drop-logo" width="80" height="80" decoding="async">
                 <span class="new-drop-tag">New Collection</span>
                 <h2 class="new-drop-title">AMBOT NIMO!</h2>
                 <p class="new-drop-subtitle">Oversized Organic High-Neck Tee</p>
                 <span class="new-drop-label">Coming Soon</span>
             </div>
             <div class="new-drop-img">
-                <img src="images/new-drop-right.jpg" alt="AMBOT NIMO! Oversized Organic Tee — BAHAW Studio">
+                <img src="images/new-drop-right.jpg" alt="AMBOT NIMO! Oversized Organic Tee — BAHAW Studio" width="400" height="500" decoding="async">
             </div>
         </div>
     </section>
@@ -112,7 +112,7 @@
 
     <!-- LIFESTYLE BANNER -->
     <section class="lifestyle-banner">
-        <img src="images/lifestyle-banner.jpg" alt="BAHAW Studio Streetwear Collection" class="lifestyle-banner-img" loading="lazy">
+        <img src="images/lifestyle-banner.jpg" alt="BAHAW Studio Streetwear Collection" class="lifestyle-banner-img" loading="lazy" width="1200" height="400" decoding="async">
         <div class="lifestyle-banner-content">
             <h3>Also Available on Etsy</h3>
             <p>Shop our full collection with worldwide shipping.</p>
@@ -154,13 +154,15 @@
         </div>
     </footer>
 
-    <script src="data/products.js"></script>
+    <script src="data/products.js" defer></script>
     <!-- cart.js removed — purchases handled via Etsy -->
-    <script src="js/app.js"></script>
-    <script src="js/products.js"></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/products.js" defer></script>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js');
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js');
+            });
         }
     </script>
 </body>

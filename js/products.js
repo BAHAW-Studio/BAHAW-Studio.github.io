@@ -2,36 +2,85 @@
    BAHAW STUDIO — Product Rendering
    ================================ */
 
-// --- RENDER PRODUCT CARD (with color dots) ---
+// --- RENDER PRODUCT CARD (with color dots + design toggle) ---
 function renderProductCard(product) {
     var photoUrl = product.photo_url || '';
     var etsyUrl = product.etsy_url || 'https://www.etsy.com/shop/BahawStudio';
+    var hasDesignB = product.design_b && product.design_b.photo_url;
 
     var image = photoUrl
-        ? '<img src="' + photoUrl + '" alt="' + product.name + '" loading="lazy">'
+        ? '<img src="' + photoUrl + '" alt="' + product.name + '" loading="lazy" width="400" height="400" decoding="async">'
         : '<div class="placeholder-img"><span>Photo Coming Soon</span></div>';
 
-    // Color dots
+    // Color dots — limit to 6 visible, show +N indicator for rest
     var colorDots = '';
     if (product.colors && product.colors.length > 0) {
         colorDots = '<div class="product-card-colors">';
-        for (var c = 0; c < product.colors.length; c++) {
+        var maxDots = 6;
+        var showCount = Math.min(product.colors.length, maxDots);
+        for (var c = 0; c < showCount; c++) {
             var border = product.colors[c].hex.toUpperCase() === '#FFFFFF' ? 'box-shadow: inset 0 0 0 1px #ccc;' : '';
             colorDots += '<span class="color-dot" style="background:' + product.colors[c].hex + ';' + border + '" title="' + product.colors[c].name + '"></span>';
+        }
+        if (product.colors.length > maxDots) {
+            colorDots += '<span class="color-dot-more">+' + (product.colors.length - maxDots) + '</span>';
         }
         colorDots += '</div>';
     }
 
-    return '<a href="' + etsyUrl + '" target="_blank" rel="noopener" class="product-card fade-in">' +
+    // Design A/B toggle
+    var designToggle = '';
+    if (hasDesignB) {
+        var bPhoto = product.design_b.photo_url;
+        var bEtsy = product.design_b.etsy_url || etsyUrl;
+        designToggle = '<div class="design-toggle" data-a-photo="' + photoUrl + '" data-a-etsy="' + etsyUrl +
+            '" data-b-photo="' + bPhoto + '" data-b-etsy="' + bEtsy + '">' +
+            '<button type="button" class="design-btn active" data-design="a">Design A</button>' +
+            '<button type="button" class="design-btn" data-design="b">Design B</button>' +
+            '</div>';
+    }
+
+    var cardId = 'product-card-' + product.id;
+    return '<div class="product-card fade-in" id="' + cardId + '">' +
+        '<a href="' + etsyUrl + '" target="_blank" rel="noopener" class="product-card-link">' +
         '<div class="product-card-img">' + image +
         '<div class="product-quick-add"><span class="btn btn-primary btn-sm btn-full">Shop on Etsy</span></div>' +
         '</div>' +
+        '</a>' +
         '<div class="product-card-info">' +
+        designToggle +
         '<div class="product-card-name">' + product.name + '</div>' +
         '<div class="product-card-price"><span class="current">' + formatPrice(product.price) + '</span></div>' +
         colorDots +
-        '</div></a>';
+        '</div></div>';
 }
+
+// --- DESIGN A/B TOGGLE (event delegation) ---
+document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.design-btn');
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+
+    var design = btn.getAttribute('data-design');
+    var toggle = btn.parentElement;
+    var card = toggle.closest('.product-card');
+    if (!card) return;
+
+    var link = card.querySelector('.product-card-link');
+    var img = card.querySelector('.product-card-img img');
+
+    // Update active button
+    toggle.querySelectorAll('.design-btn').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+
+    // Switch photo and Etsy link
+    var photo = design === 'b' ? toggle.getAttribute('data-b-photo') : toggle.getAttribute('data-a-photo');
+    var etsy = design === 'b' ? toggle.getAttribute('data-b-etsy') : toggle.getAttribute('data-a-etsy');
+
+    if (img) img.src = photo;
+    if (link) link.href = etsy;
+});
 
 // --- GET PRODUCT BY ID ---
 function getProductById(id) {
@@ -46,8 +95,17 @@ function getProductById(id) {
 var currentFilter = 'all';
 var PRODUCTS_PER_PAGE = 12;
 var productsShown = PRODUCTS_PER_PAGE;
+var _renderRAF = null;
 
 function renderFeaturedProducts(showAll) {
+    // Debounce with requestAnimationFrame to prevent multiple rapid renders
+    if (_renderRAF) cancelAnimationFrame(_renderRAF);
+    _renderRAF = requestAnimationFrame(function() {
+        _renderFeaturedProductsNow(showAll);
+    });
+}
+
+function _renderFeaturedProductsNow(showAll) {
     var grid = document.getElementById('featuredGrid');
     if (!grid || typeof PRODUCTS_DATA === 'undefined') return;
 
@@ -82,7 +140,15 @@ function renderFeaturedProducts(showAll) {
     var limit = showAll ? filtered.length : productsShown;
     var visible = filtered.slice(0, limit);
 
-    grid.innerHTML = visible.map(renderProductCard).join('');
+    // Build HTML in a document fragment to minimize reflows
+    var html = visible.map(renderProductCard).join('');
+    grid.style.willChange = 'contents';
+    grid.innerHTML = html;
+
+    // Clean up will-change after paint
+    requestAnimationFrame(function() {
+        grid.style.willChange = '';
+    });
 
     // Show/hide "Show More" button
     var loadMoreWrap = document.getElementById('loadMoreWrap');
@@ -103,8 +169,8 @@ function renderFeaturedProducts(showAll) {
         loadMoreWrap.innerHTML = '';
     }
 
-    // Re-observe new fade-in elements
-    setTimeout(initScrollAnimations, 50);
+    // Re-observe ONLY new fade-in elements inside the grid
+    observeNewFadeIns(grid);
 }
 
 function initFilterBar() {
@@ -121,7 +187,15 @@ function initFilterBar() {
 }
 
 // --- RENDER SHOP PRODUCTS ---
+var _shopRenderRAF = null;
+
 function renderShopProducts() {
+    // Debounce with requestAnimationFrame
+    if (_shopRenderRAF) cancelAnimationFrame(_shopRenderRAF);
+    _shopRenderRAF = requestAnimationFrame(_renderShopProductsNow);
+}
+
+function _renderShopProductsNow() {
     var grid = document.getElementById('shopGrid');
     if (!grid || typeof PRODUCTS_DATA === 'undefined') return;
 
@@ -161,9 +235,14 @@ function renderShopProducts() {
         return;
     }
 
+    grid.style.willChange = 'contents';
     grid.innerHTML = products.map(renderProductCard).join('');
+    requestAnimationFrame(function() {
+        grid.style.willChange = '';
+    });
 
-    setTimeout(initScrollAnimations, 50);
+    // Observe only new fade-in elements in the grid
+    observeNewFadeIns(grid);
 }
 
 // --- INIT SHOP FILTERS ---
@@ -226,10 +305,43 @@ function toggleAccordion(header) {
     item.classList.toggle('open');
 }
 
+// --- OBSERVE FADE-INS WITHIN A CONTAINER (scoped, no global disconnect) ---
+function observeNewFadeIns(container) {
+    if (!container) return;
+    // Use the global observer from app.js if available; otherwise init it
+    if (typeof initScrollAnimations === 'function') {
+        // Only observe new elements inside this container
+        var els = container.querySelectorAll('.fade-in:not(.visible)');
+        if (_scrollObserver) {
+            els.forEach(function(el) { _scrollObserver.observe(el); });
+        } else {
+            // Fallback: init global observer then observe
+            initScrollAnimations();
+        }
+    }
+}
+
 // --- INIT ON PAGE LOAD ---
 document.addEventListener('DOMContentLoaded', function() {
     initFilterBar();
-    renderFeaturedProducts();
-    renderShopProducts();
+
+    // Render featured grid (homepage) — use requestIdleCallback if available for non-blocking render
+    if (document.getElementById('featuredGrid')) {
+        if (typeof requestIdleCallback === 'function') {
+            requestIdleCallback(function() { _renderFeaturedProductsNow(); });
+        } else {
+            _renderFeaturedProductsNow();
+        }
+    }
+
+    // Render shop grid (shop page)
+    if (document.getElementById('shopGrid')) {
+        if (typeof requestIdleCallback === 'function') {
+            requestIdleCallback(function() { _renderShopProductsNow(); });
+        } else {
+            _renderShopProductsNow();
+        }
+    }
+
     initShopFilters();
 });

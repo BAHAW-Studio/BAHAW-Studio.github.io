@@ -18,7 +18,7 @@ function renderOrderSidebar() {
     for (var i = 0; i < cart.length; i++) {
         var item = cart[i];
         var img = item.photo_url
-            ? '<img src="' + item.photo_url + '" alt="' + item.name + '">'
+            ? '<img src="' + item.photo_url + '" alt="' + item.name + '" loading="lazy" width="60" height="60" decoding="async">'
             : '';
         itemsHTML +=
             '<div class="order-item">' +
